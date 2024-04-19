@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
 class QuestionScreen extends StatefulWidget {
@@ -13,7 +14,11 @@ class _QuestionScreen extends State<QuestionScreen> {
   @override
   Widget build(context) {
     return const Text(
-      'Questions Screen'
+      'Questions Screen',
+      style: TextStyle(
+        fontSize: 32,
+        color: Colors.white,
+      ),
     );
   }
 }
