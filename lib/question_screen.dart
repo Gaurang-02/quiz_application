@@ -17,7 +17,7 @@ class _QuestionScreen extends State<QuestionScreen> {
       'Questions Screen',
       style: TextStyle(
         fontSize: 32,
-        color: Colors.white,
+        
       ),
     );
   }
