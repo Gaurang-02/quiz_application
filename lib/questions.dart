@@ -9,9 +9,8 @@ const questions = [
       'blocks',
       'functions',
     ],
-    
   ),
-    QuizQuestions('How are Flutter UIs built?', [
+  QuizQuestions('How are Flutter UIs built?', [
     'By combining widgets in code',
     'By combining widgets in a visual editor',
     'By defining widgets in config files',
