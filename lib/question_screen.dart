@@ -23,6 +23,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
 
   @override
   Widget build(context) {
+<<<<<<< Gaurang
     final currentQuestion = questions[currentQuestionIdx];
     return SizedBox(
       width: double.infinity,
@@ -64,6 +65,13 @@ class _QuestionScreenState extends State<QuestionScreen> {
             ],
           ),
         ),
+=======
+    return const Text(
+      'Questions Screen',
+      style: TextStyle(
+        fontSize: 32,
+        
+>>>>>>> main
       ),
     );
   }
